@@ -76,10 +76,18 @@
     }
 
     .price-grid__footer {
-        
+        display: flex;
     }
 
+    .price-grid__footer .sub__card {
+        flex: 1;
+        padding: 35px;
+    }
 
+    .price-grid__footer .price-tag {
+        display: flex;
+        align-items: center;
+    }
 
 
 
@@ -105,4 +113,9 @@
 
   .attribution a { 
       color: hsl(228, 45%, 44%); 
+    }
+
+    header .attribution {
+        font-size: 15px;
+        margin-top: 10px;
     }
